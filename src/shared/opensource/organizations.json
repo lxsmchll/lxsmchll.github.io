@@ -1,0 +1,49 @@
+{
+  "data": [
+    {
+      "login": "R",
+      "avatarUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg",
+      "__typename": "Programming"
+    },
+    {
+      "login": "Python",
+      "avatarUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+      "__typename": "Programming"
+    },
+    {
+      "login": "VBA",
+      "avatarUrl": "https://static-00.iconduck.com/assets.00/file-type-vba-icon-2048x1143-g79vnax4.png",
+      "__typename": "Programming"
+    },
+    {
+      "login": "Microsoft Excel",
+      "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Microsoft_Excel_Logo_%282013-2019%29.svg/2048px-Microsoft_Excel_Logo_%282013-2019%29.svg.png",
+      "__typename": "Tool"
+    },
+    {
+      "login": "SAS",
+      "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/SAS_logo_horiz.svg/1200px-SAS_logo_horiz.svg.png",
+      "__typename": "Tool"
+    },
+    {
+      "login": "Statistica",
+      "avatarUrl": "https://i.ytimg.com/vi/cL79bUOtWRw/maxresdefault.jpg",
+      "__typename": "Tool"
+    },
+    {
+      "login": "Tableau",
+      "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png",
+      "__typename": "Tool"
+    },
+    {
+      "login": "Power BI",
+      "avatarUrl": "https://logos-world.net/wp-content/uploads/2022/02/Microsoft-Power-BI-Symbol.png",
+      "__typename": "Tool"
+    },
+    {
+      "login": "Git",
+      "avatarUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      "__typename": "Tool"
+    }
+  ]
+}
