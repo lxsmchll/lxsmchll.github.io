@@ -193,142 +193,32 @@ const skills = {
   ],
 };
 
-const technicalSkillsAndCoursework = {
-  technicalSkills: [
+// Technical Skills
+const degrees = {
+  degrees: [
     {
-      login: "R",
-      avatarUrl:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg",
-      __typename: "Programming",
-    },
-    {
-      login: "Python",
-      avatarUrl:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-      __typename: "Programming",
-    },
-    {
-      login: "VBA",
-      avatarUrl:
-        "https://static-00.iconduck.com/assets.00/file-type-vba-icon-2048x1143-g79vnax4.png",
-      __typename: "Programming",
-    },
-    {
-      login: "Microsoft Excel",
-      avatarUrl:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Microsoft_Excel_Logo_%282013-2019%29.svg/2048px-Microsoft_Excel_Logo_%282013-2019%29.svg.png",
-      __typename: "Tool",
-    },
-    {
-      login: "SAS",
-      avatarUrl:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/SAS_logo_horiz.svg/1200px-SAS_logo_horiz.svg.png",
-      __typename: "Tool",
-    },
-    {
-      login: "Statistica",
-      avatarUrl: "https://i.ytimg.com/vi/cL79bUOtWRw/maxresdefault.jpg",
-      __typename: "Tool",
-    },
-    {
-      login: "Tableau",
-      avatarUrl:
-        "https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png",
-      __typename: "Tool",
-    },
-    {
-      login: "Power BI",
-      avatarUrl:
-        "https://logos-world.net/wp-content/uploads/2022/02/Microsoft-Power-BI-Symbol.png",
-      __typename: "Tool",
-    },
-    {
-      login: "Git",
-      avatarUrl:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
-      __typename: "Tool",
-    },
-  ],
-  relevantCoursework: {
-    actuary: [
-      "Theory of Interest, Statistical Theory, Time Series Analysis & Forecasting",
-      "Linear Programming, Multivariate Analysis, Statistical Packages",
-      "Corporate Finance, Accounting, Economics",
-    ],
-    dataScience: {
-      coreCourses: [
-        "Time Series Analysis & Forecasting",
-        "Applied Multivariate Analysis",
-        "Linear Models",
-        "Statistical Theories",
-        "Exploratory Data Analysis",
-        "Statistical Packages",
-        "Operations Research",
-        "Markov Chain",
-      ],
-      mathematicalFoundations: [
-        "Numerical Analysis",
-        "Complex Analysis",
-        "Differential Equations",
-        "Linear Algebra",
-        "Abstract Algebra 1 & 2",
-        "Modern Geometry",
-        "Mathematical Analysis 1–3",
-        "Introduction to Set Theory",
-        "Game Theory",
-        "Graph Theory",
-        "Numerical Methods",
-      ],
-      programmingTools: ["Computational Thinking in Python"],
-    },
-  },
-};
-
-export { technicalSkillsAndCoursework };
-
-const technicalSkillsSection = {
-  title: "🛠️ Technical Skills",
-  content: [
-    {
-      heading: "Technical Skills",
-      items: [
-        { label: "Programming:", details: "R, Python, VBA" },
-        {
-          label: "Tools:",
-          details:
-            "Microsoft Excel, RStudio, SAS, Statistica, Tableau, Power BI, Git, MS Studio",
-        },
+      title: "Actuary",
+      logo_path: "calculator.png",
+      descriptions: [
+        "  • Theory of Interest, Statistical Theory, Time Series Analysis & Forecasting",
+        "  • Linear Programming, Multivariate Analysis, Statistical Packages",
+        "  • Corporate Finance, Accounting, Economics",
       ],
     },
     {
-      heading: "Relevant Coursework (Actuary)",
-      items: [
-        "Theory of Interest, Statistical Theory, Time Series Analysis & Forecasting",
-        "Linear Programming, Multivariate Analysis, Statistical Packages",
-        "Corporate Finance, Accounting, Economics",
+      title: "Data Science",
+      logo_path: "data-science-icon.svg",
+      descriptions: [
+        "Core Data Science Courses:",
+        "  • Time Series Analysis & Forecasting, Applied Multivariate Analysis, Linear Models, Statistical Theories, Exploratory Data Analysis, Statistical Packages, Operations Research, Markov Chain",
+        "Mathematical Foundations:",
+        "  • Numerical Analysis, Complex Analysis, Differential Equations, Linear Algebra, Abstract Algebra 1 & 2, Modern Geometry, Mathematical Analysis 1–3, Introduction to Set Theory, Game Theory, Graph Theory, Numerical Methods",
+        "Programming & Tools:",
+        "  • Computational Thinking in Python",
       ],
-    },
-    {
-      heading: "Relevant Coursework (Data Science)",
-      subheading: "Core Data Science Courses:",
-      items: [
-        "Time Series Analysis & Forecasting, Applied Multivariate Analysis, Linear Models, Statistical Theories, Exploratory Data Analysis, Statistical Packages, Operations Research, Markov Chain",
-      ],
-    },
-    {
-      heading: "Mathematical Foundations",
-      items: [
-        "Numerical Analysis, Complex Analysis, Differential Equations, Linear Algebra, Abstract Algebra 1 & 2, Modern Geometry, Mathematical Analysis 1–3, Introduction to Set Theory, Game Theory, Graph Theory, Numerical Methods",
-      ],
-    },
-    {
-      heading: "Programming & Tools",
-      items: ["Computational Thinking in Python"],
     },
   ],
 };
-
-export { technicalSkillsSection };
 
 // Education Page
 const competitiveSites = {
@@ -384,36 +274,36 @@ const competitiveSites = {
   ],
 };
 
-const degrees = {
-  degrees: [
-    {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - 2020",
-      descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
-      ],
-      website_link: "http://iiitk.ac.in",
-    },
-    {
-      title: "Indiana University Bloomington",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "iu_logo.png",
-      alt_name: "Indiana University Bloomington",
-      duration: "2021 - 2023",
-      descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
-      ],
-      website_link: "https://www.indiana.edu/",
-    },
-  ],
-};
+// const degrees = {
+//   degrees: [
+//     {
+//       title: "Indian Institute of Information Technology Kurnool",
+//       subtitle: "B.Tech. in Computer Engineering",
+//       logo_path: "iiitk_logo.png",
+//       alt_name: "IIITDM Kurnool",
+//       duration: "2016 - 2020",
+//       descriptions: [
+//         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
+//         "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
+//         "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+//       ],
+//       website_link: "http://iiitk.ac.in",
+//     },
+//     {
+//       title: "Indiana University Bloomington",
+//       subtitle: "M.S. in Computer Science",
+//       logo_path: "iu_logo.png",
+//       alt_name: "Indiana University Bloomington",
+//       duration: "2021 - 2023",
+//       descriptions: [
+//         "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
+//         "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
+//         "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+//       ],
+//       website_link: "https://www.indiana.edu/",
+//     },
+//   ],
+// };
 
 const certifications = {
   certifications: [
