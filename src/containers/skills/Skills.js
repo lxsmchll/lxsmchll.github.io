@@ -12,6 +12,21 @@ export default function Skills(props) {
           <h1 className="skills-header" style={{ color: theme.text }}>
             What I Do?
           </h1>
+          <p
+            style={{
+              fontSize: "20px",
+              lineHeight: "1.6",
+              color: theme.secondaryText,
+              textAlign: "center",
+              marginTop: "20px",
+            }}
+          >
+            I explore real-world problems through the lens of mathematics, data,
+            and business logic.
+            <br />
+            With a foundation in actuarial science and data analysis, I focus
+            on:
+          </p>
         </Fade>
       </div>
       <SkillSection theme={theme} />

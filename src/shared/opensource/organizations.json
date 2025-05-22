@@ -1,99 +1,49 @@
 {
   "data": [
     {
-      "login": "openai",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/14957082?v=4",
-      "__typename": "Organization"
+      "login": "R",
+      "avatarUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg",
+      "__typename": "Programming"
     },
     {
-      "login": "sympy",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/260832?v=4",
-      "__typename": "Organization"
+      "login": "Python",
+      "avatarUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+      "__typename": "Programming"
     },
     {
-      "login": "scikit-learn",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/365630?v=4",
-      "__typename": "Organization"
+      "login": "VBA",
+      "avatarUrl": "https://static-00.iconduck.com/assets.00/file-type-vba-icon-2048x1143-g79vnax4.png",
+      "__typename": "Programming"
     },
     {
-      "login": "python",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/1525981?v=4",
-      "__typename": "Organization"
+      "login": "Microsoft Excel",
+      "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Microsoft_Excel_Logo_%282013-2019%29.svg/2048px-Microsoft_Excel_Logo_%282013-2019%29.svg.png",
+      "__typename": "Tool"
     },
     {
-      "login": "facebook",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/69631?v=4",
-      "__typename": "Organization"
+      "login": "SAS",
+      "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/SAS_logo_horiz.svg/1200px-SAS_logo_horiz.svg.png",
+      "__typename": "Tool"
     },
     {
-      "login": "ReactTraining",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/11823761?v=4",
-      "__typename": "Organization"
+      "login": "Statistica",
+      "avatarUrl": "https://i.ytimg.com/vi/cL79bUOtWRw/maxresdefault.jpg",
+      "__typename": "Tool"
     },
     {
-      "login": "keras-team",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/34455048?v=4",
-      "__typename": "Organization"
+      "login": "Tableau",
+      "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png",
+      "__typename": "Tool"
     },
     {
-      "login": "fossasia",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/6295529?v=4",
-      "__typename": "Organization"
+      "login": "Power BI",
+      "avatarUrl": "https://logos-world.net/wp-content/uploads/2022/02/Microsoft-Power-BI-Symbol.png",
+      "__typename": "Tool"
     },
     {
-      "login": "gatsbyjs",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/12551863?v=4",
-      "__typename": "Organization"
-    },
-    {
-      "login": "tensorflow",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/15658638?v=4",
-      "__typename": "Organization"
-    },
-    {
-      "login": "kiwix",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/826219?v=4",
-      "__typename": "Organization"
-    },
-    {
-      "login": "uber",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/538264?v=4",
-      "__typename": "Organization"
-    },
-    {
-      "login": "netrack",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/10380772?v=4",
-      "__typename": "Organization"
-    },
-    {
-      "login": "DataTurks-Engg",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/39724935?v=4",
-      "__typename": "Organization"
-    },
-    {
-      "login": "google",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/1342004?v=4",
-      "__typename": "Organization"
-    },
-    {
-      "login": "apollographql",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/17189275?v=4",
-      "__typename": "Organization"
-    },
-    {
-      "login": "NVlabs",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/2695301?v=4",
-      "__typename": "Organization"
-    },
-    {
-      "login": "dsc-iiitdmk",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/53558593?v=4",
-      "__typename": "Organization"
-    },
-    {
-      "login": "firecampapp",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/45025286?v=4",
-      "__typename": "Organization"
+      "login": "Git",
+      "avatarUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      "__typename": "Tool"
     }
   ]
 }

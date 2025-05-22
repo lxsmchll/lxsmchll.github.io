@@ -2,326 +2,333 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Abellar's Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "An aspiring actuary with a strong foundation in mathematics, operations research, and psychology — passionate about leveraging quantitative analysis and data-driven insights to solve complex problems in risk, optimization, and decision-making. Primarily focused on actuarial science with expertise applicable to operations research and applied data science.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Alexis Michelle Abellar Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "https://github.com/lxsmchll/Portfolio/",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  title: "Alexis Michelle Abellar",
+  logo_name: "AlexisMichelleAbellar",
+  nickname: "Alexis",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Aspiring actuary with a passion for data science, human behavior, and automation. Mathematics major with a Business Specialization and a Minor in Psychology.",
   resumeLink:
-    "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+    "https://drive.google.com/file/d/1GxlwD0sko85Pwn6DbEL_PP35tcoXn3DP/view?usp=drive_link",
+  resumebutton:
+    "https://drive.google.com/file/d/1GxlwD0sko85Pwn6DbEL_PP35tcoXn3DP/view?usp=drive_link",
+  githubProfile: "https://github.com/lxsmchll",
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
-
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/lxsmchll",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
+    link: "https://www.linkedin.com/in/alexis-michelle-abellar/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
-    name: "YouTube",
-    link: "https://youtube.com/c/DevSense19",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  },
-  {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:alexis.i.abellar@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
-  },
-  {
-    name: "X-Twitter",
-    link: "https://twitter.com/ashutosh_1919",
-    fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
-    backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
-  },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
 ];
 
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-      ],
+      title: "🌡️ Actuarial Analysis",
+      fileName: "WIDTimeSeries",
+      overview:
+        "I explore actuarial problems using mathematical frameworks, forecasting tools, and real-world data.",
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
+          skillName: "R",
+          fontAwesomeClassname: "simple-icons:r",
+          style: { color: "#276DC3" },
+        },
+      ],
+      projects: [
+        {
+          title: "🔹 Markov Chain Analysis on PSEi",
+          description:
+            "Applied Markov chains to analyze and forecast Philippine Stock Exchange Index movements.",
+          contributions:
+            "Authored Results, Discussion & Conclusion; visualizations and computations.",
+          linkLabel: "View Full Project (PDF)",
+          link:
+            "https://drive.google.com/file/d/1b3B9xYv3dNPUwlU7ll2o2sz_1C-jRIWb/view?usp=drive_link",
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
+          title: "🔹 Global Temperature Time Series Analysis",
+          description:
+            "Conducted time series analysis including decomposition, model fitting, forecasting, and performance evaluation.",
+          contributions: "Team leader; led forecasting model implementation.",
+          linkLabel: "View Full Project (PDF)",
+          link:
+            "https://drive.google.com/file/d/1Z5GNexdseiekOdcBAMSuwujmJ9j6Psmy/view?usp=drive_link",
         },
       ],
     },
     {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
-      skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
-      ],
+      title: "📊 Data-Driven Analysis",
+      fileName: "WIDDataDriven",
+      overview:
+        "I analyze data and identify patterns to guide decisions with evidence.",
       softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
+          skillName: "Statistica",
+          avatarUrl: "https://i.ytimg.com/vi/cL79bUOtWRw/maxresdefault.jpg",
+          style: { color: "#276DC3" },
         },
+      ],
+      projects: [
         {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
+          title: "🔹 Employee Attrition Analysis",
+          description:
+            "Used factor and discriminant analysis to identify attrition factors with 84.42% accuracy.",
+          contributions: "Project leader; did factor analysis.",
+          linkLabel: "View Full Project (PDF)",
+          link:
+            "https://drive.google.com/file/d/1HeMicJWuj7vAb665R6jbcq9ioqtdZztm/view?usp=drive_link",
         },
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
-      ],
+      title: "📉 Numerical Method",
+      fileName: "WIDNumerical",
+      overview:
+        "I use numerical methods to approximate solutions to problems that can't be solved analytically.",
       softwareSkills: [
         {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
+          skillName: "Excel",
+          fontAwesomeClassname: "simple-icons:microsoftexcel",
+          style: { color: "#217346" },
         },
+      ],
+      projects: [
         {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
+          title: "🔹 Bitcoin Implied Volatility Estimation",
+          description:
+            "Explored Newton-Raphson and bisection methods for estimating implied volatility.",
+          contributions: "Applied the Newton-Raphson method.",
+          linkLabel: "View Full Project (PDF)",
+          link:
+            "https://drive.google.com/file/d/1zqKOBLumPs4fJ8sslGVF4Cd3WByIFsEC/view?usp=drive_link",
         },
       ],
     },
     {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
-      ],
+      title: "🔧 Operations Research",
+      fileName: "WIDDataDriven",
+      overview:
+        "I use optimization methods to build efficient systems and support business decisions.",
       softwareSkills: [
         {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
+          skillName: "Excel",
+          fontAwesomeClassname: "simple-icons:microsoftexcel",
+          style: { color: "#217346" },
+        },
+      ],
+      projects: [
+        {
+          title: "🔹 Revenue Maximization of 24 Chicken",
+          description:
+            "Used linear programming to determine optimal combinations to maximize revenue.",
+          contributions:
+            "Co-wrote methodology and implemented Excel-based optimization.",
+          linkLabel: "View Full Project (PDF)",
+          link:
+            "https://drive.google.com/file/d/1H5c8U-7drAybeOSVbJRiN03eaGNh-w_E/view?usp=drive_link",
+        },
+      ],
+    },
+    {
+      title: "🤖 Resourceful Automation",
+      fileName: "WIDOperations",
+      overview:
+        "I proactively automate and streamline processes using scripts, low-code tools, and intuitive systems.",
+      softwareSkills: [],
+      projects: [
+        {
+          title: "🔹 VBA Report Consolidation",
+          description:
+            "Automated monthly consolidation of sheets across multiple reports into one output file.",
         },
         {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
+          title: "🔹 Twitter Bot for Emotional Check-Ins",
+          description:
+            "Created a weekly emotional check-in bot on Twitter using low-code/no-code platforms.",
         },
         {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
+          title: "🔹 Discord Onboarding Gamification",
+          description:
+            "Enhanced onboarding via Mimu bot custom commands for interactive community engagement.",
         },
         {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
+          title: "🔹 Python RPG Game",
+          description:
+            "Designed a simple RPG game using Python as a personal coding project.",
         },
       ],
     },
   ],
 };
+
+const technicalSkillsAndCoursework = {
+  technicalSkills: [
+    {
+      login: "R",
+      avatarUrl:
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg",
+      __typename: "Programming",
+    },
+    {
+      login: "Python",
+      avatarUrl:
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+      __typename: "Programming",
+    },
+    {
+      login: "VBA",
+      avatarUrl:
+        "https://static-00.iconduck.com/assets.00/file-type-vba-icon-2048x1143-g79vnax4.png",
+      __typename: "Programming",
+    },
+    {
+      login: "Microsoft Excel",
+      avatarUrl:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Microsoft_Excel_Logo_%282013-2019%29.svg/2048px-Microsoft_Excel_Logo_%282013-2019%29.svg.png",
+      __typename: "Tool",
+    },
+    {
+      login: "SAS",
+      avatarUrl:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/SAS_logo_horiz.svg/1200px-SAS_logo_horiz.svg.png",
+      __typename: "Tool",
+    },
+    {
+      login: "Statistica",
+      avatarUrl: "https://i.ytimg.com/vi/cL79bUOtWRw/maxresdefault.jpg",
+      __typename: "Tool",
+    },
+    {
+      login: "Tableau",
+      avatarUrl:
+        "https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png",
+      __typename: "Tool",
+    },
+    {
+      login: "Power BI",
+      avatarUrl:
+        "https://logos-world.net/wp-content/uploads/2022/02/Microsoft-Power-BI-Symbol.png",
+      __typename: "Tool",
+    },
+    {
+      login: "Git",
+      avatarUrl:
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      __typename: "Tool",
+    },
+  ],
+  relevantCoursework: {
+    actuary: [
+      "Theory of Interest, Statistical Theory, Time Series Analysis & Forecasting",
+      "Linear Programming, Multivariate Analysis, Statistical Packages",
+      "Corporate Finance, Accounting, Economics",
+    ],
+    dataScience: {
+      coreCourses: [
+        "Time Series Analysis & Forecasting",
+        "Applied Multivariate Analysis",
+        "Linear Models",
+        "Statistical Theories",
+        "Exploratory Data Analysis",
+        "Statistical Packages",
+        "Operations Research",
+        "Markov Chain",
+      ],
+      mathematicalFoundations: [
+        "Numerical Analysis",
+        "Complex Analysis",
+        "Differential Equations",
+        "Linear Algebra",
+        "Abstract Algebra 1 & 2",
+        "Modern Geometry",
+        "Mathematical Analysis 1–3",
+        "Introduction to Set Theory",
+        "Game Theory",
+        "Graph Theory",
+        "Numerical Methods",
+      ],
+      programmingTools: ["Computational Thinking in Python"],
+    },
+  },
+};
+
+export { technicalSkillsAndCoursework };
+
+const technicalSkillsSection = {
+  title: "🛠️ Technical Skills",
+  content: [
+    {
+      heading: "Technical Skills",
+      items: [
+        { label: "Programming:", details: "R, Python, VBA" },
+        {
+          label: "Tools:",
+          details:
+            "Microsoft Excel, RStudio, SAS, Statistica, Tableau, Power BI, Git, MS Studio",
+        },
+      ],
+    },
+    {
+      heading: "Relevant Coursework (Actuary)",
+      items: [
+        "Theory of Interest, Statistical Theory, Time Series Analysis & Forecasting",
+        "Linear Programming, Multivariate Analysis, Statistical Packages",
+        "Corporate Finance, Accounting, Economics",
+      ],
+    },
+    {
+      heading: "Relevant Coursework (Data Science)",
+      subheading: "Core Data Science Courses:",
+      items: [
+        "Time Series Analysis & Forecasting, Applied Multivariate Analysis, Linear Models, Statistical Theories, Exploratory Data Analysis, Statistical Packages, Operations Research, Markov Chain",
+      ],
+    },
+    {
+      heading: "Mathematical Foundations",
+      items: [
+        "Numerical Analysis, Complex Analysis, Differential Equations, Linear Algebra, Abstract Algebra 1 & 2, Modern Geometry, Mathematical Analysis 1–3, Introduction to Set Theory, Game Theory, Graph Theory, Numerical Methods",
+      ],
+    },
+    {
+      heading: "Programming & Tools",
+      items: ["Computational Thinking in Python"],
+    },
+  ],
+};
+
+export { technicalSkillsSection };
 
 // Education Page
 const competitiveSites = {

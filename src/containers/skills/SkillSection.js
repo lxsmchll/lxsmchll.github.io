@@ -3,19 +3,19 @@ import "./Skills.css";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
-import DataScienceImg from "./DataScienceImg";
-import FullStackImg from "./FullStackImg";
-import CloudInfraImg from "./CloudInfraImg";
-import DesignImg from "./DesignImg";
+import WIDDataDriven from "./WIDDataDriven";
+import WIDNumerical from "./WIDNumerical";
+import WIDOperations from "./WIDOperations";
+import WIDTimeSeries from "./WIDTimeSeries";
 
 function GetSkillSvg(props) {
-  if (props.fileName === "DataScienceImg")
-    return <DataScienceImg theme={props.theme} />;
-  else if (props.fileName === "FullStackImg")
-    return <FullStackImg theme={props.theme} />;
-  else if (props.fileName === "CloudInfraImg")
-    return <CloudInfraImg theme={props.theme} />;
-  return <DesignImg theme={props.theme} />;
+  if (props.fileName === "WIDDataDriven")
+    return <WIDDataDriven theme={props.theme} />;
+  else if (props.fileName === "WIDNumerical")
+    return <WIDNumerical theme={props.theme} />;
+  else if (props.fileName === "WIDOperations")
+    return <WIDOperations theme={props.theme} />;
+  return <WIDTimeSeries theme={props.theme} />;
 }
 
 class SkillSection extends Component {
@@ -23,15 +23,12 @@ class SkillSection extends Component {
     const theme = this.props.theme;
     return (
       <div>
+        {/* Original dynamic rendering (if you still want to keep it) */}
         {skills.data.map((skill, i) => {
           return (
             <div key={i} className="skills-main-div">
               <Fade left duration={2000}>
                 <div className="skills-image-div">
-                  {/* <img
-                    alt="Ashutosh is Analysing Data"
-                    src={require(`../../assets/images/${skill.imagePath}`)}
-                  ></img> */}
                   <GetSkillSvg fileName={skill.fileName} theme={theme} />
                 </div>
               </Fade>
@@ -46,19 +43,65 @@ class SkillSection extends Component {
                   <SoftwareSkill logos={skill.softwareSkills} />
                 </Fade>
                 <Fade right duration={2000}>
-                  <div>
-                    {skill.skills.map((skillSentence, i) => {
-                      return (
+                  {/* Overview description */}
+                  {skill.overview && (
+                    <p
+                      className="subTitle skills-text"
+                      style={{ color: theme.secondaryText }}
+                    >
+                      {skill.overview}
+                    </p>
+                  )}
+
+                  {/* Projects */}
+                  {skill.projects &&
+                    skill.projects.map((proj, i) => (
+                      <div key={i} style={{ marginBottom: "1.5em" }}>
+                        <h2
+                          className="skills-heading"
+                          style={{
+                            color: theme.text,
+                            fontSize: "1.2em",
+                            marginTop: "1em",
+                          }}
+                        >
+                          <strong>{proj.title}</strong>
+                        </h2>
                         <p
-                          key={i}
                           className="subTitle skills-text"
                           style={{ color: theme.secondaryText }}
                         >
-                          {skillSentence}
+                          {proj.description}
                         </p>
-                      );
-                    })}
-                  </div>
+                        {proj.contributions && (
+                          <p
+                            className="subTitle skills-text"
+                            style={{ color: theme.secondaryText }}
+                          >
+                            <strong>My Contributions:</strong>{" "}
+                            {proj.contributions}
+                          </p>
+                        )}
+                        {proj.link && (
+                          <p
+                            className="subTitle skills-text"
+                            style={{ color: theme.secondaryText }}
+                          >
+                            <span role="img" aria-label="right arrow">
+                              ➡️
+                            </span>
+                            <a
+                              href={proj.link}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              style={{ color: theme.text }}
+                            >
+                              {proj.linkLabel}
+                            </a>
+                          </p>
+                        )}
+                      </div>
+                    ))}
                 </Fade>
               </div>
             </div>

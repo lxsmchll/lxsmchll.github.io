@@ -48,7 +48,7 @@ class Header extends Component {
                   Home
                 </NavLink>
               </li>
-              <li>
+              {/* <li>
                 <NavLink
                   to="/education"
                   tag={Link}
@@ -83,8 +83,8 @@ class Header extends Component {
                 >
                   Projects
                 </NavLink>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <NavLink
                   to="/opensource"
                   tag={Link}
@@ -93,10 +93,10 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Open Source
+                  Technical Skills
                 </NavLink>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <NavLink
                   to="/contact"
                   tag={Link}
@@ -106,8 +106,8 @@ class Header extends Component {
                   onMouseOut={(event) => onMouseOut(event)}
                 >
                   Contact Me
-                </NavLink>
-              </li>
+                </NavLink> */}
+              {/* </li>  */}
             </ul>
           </header>
         </div>
