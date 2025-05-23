@@ -41,6 +41,11 @@
       "__typename": "Tool"
     },
     {
+      "login": "Power App",
+      "avatarUrl": "https://store-images.s-microsoft.com/image/apps.5460.13795821674373682.42a749e2-3ed9-43c6-88ec-0045278b4e49.7c939c07-5097-4a52-abd1-de0a42b889ba",
+      "__typename": "Tool"
+    },
+    {
       "login": "Git",
       "avatarUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
       "__typename": "Tool"
