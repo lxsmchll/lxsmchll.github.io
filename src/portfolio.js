@@ -81,7 +81,7 @@ const skills = {
           title: "🔹 Global Temperature Time Series Analysis",
           description:
             "Conducted time series analysis including decomposition, model fitting, forecasting, and performance evaluation.",
-          contributions: "Team leader; led forecasting model implementation.",
+          contributions: "Team leader; contributed in everything.",
           linkLabel: "View Full Project (PDF)",
           link:
             "https://drive.google.com/file/d/1Z5GNexdseiekOdcBAMSuwujmJ9j6Psmy/view?usp=drive_link",
@@ -165,28 +165,27 @@ const skills = {
       title: "🤖 Resourceful Automation",
       fileName: "WIDOperations",
       overview:
-        "I proactively automate and streamline processes using scripts, low-code tools, and intuitive systems.",
+        "I proactively automate tasks across various fields by leveraging my skills and pattern recognition. I enjoy building templates and systems that streamline processes and improve efficiency.",
       softwareSkills: [],
       projects: [
         {
           title: "🔹 VBA Report Consolidation",
           description:
-            "Automated monthly consolidation of sheets across multiple reports into one output file.",
+            "Automated monthly consolidation of sheets across multiple reports into one output file during my actuarial internship.",
         },
         {
           title: "🔹 Twitter Bot for Emotional Check-Ins",
           description:
-            "Created a weekly emotional check-in bot on Twitter using low-code/no-code platforms.",
+            "Created a weekly emotional check-in Twitter bot that responds to followers using low-code platform as my first coding experience.",
         },
         {
           title: "🔹 Discord Onboarding Gamification",
           description:
-            "Enhanced onboarding via Mimu bot custom commands for interactive community engagement.",
+            "Gamified Discord channels onboarding via Mimu bot custom commands for interactive community engagement.",
         },
         {
           title: "🔹 Python RPG Game",
-          description:
-            "Designed a simple RPG game using Python as a personal coding project.",
+          description: "Designed a simple RPG game using Python.",
         },
       ],
     },
