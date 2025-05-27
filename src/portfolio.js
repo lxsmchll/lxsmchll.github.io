@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "Aspiring actuary with a passion for data science, human behavior, and automation. Mathematics major with a Business Specialization and a Minor in Psychology.",
   resumeLink:
-    "hhttps://drive.google.com/drive/folders/1QxnXpDtTjzbYQzI6QW0SJ2mdXqPAr0Fy?usp=sharing",
+    "https://drive.google.com/drive/folders/1QxnXpDtTjzbYQzI6QW0SJ2mdXqPAr0Fy?usp=sharing",
   resumebutton:
     "https://drive.google.com/drive/folders/1QxnXpDtTjzbYQzI6QW0SJ2mdXqPAr0Fy?usp=sharing",
   githubProfile: "https://github.com/lxsmchll",
