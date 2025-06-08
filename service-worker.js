@@ -15,7 +15,7 @@ importScripts(
   "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js"
 );
 
-importScripts("/precache-manifest.9018c867055c82fb8187e86555ed2c12.js");
+importScripts("/precache-manifest.09ec0d708519dcfb3d912852a71da9f2.js");
 
 self.addEventListener("message", (event) => {
   if (event.data && event.data.type === "SKIP_WAITING") {

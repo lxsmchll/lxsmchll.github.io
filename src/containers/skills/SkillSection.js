@@ -23,7 +23,6 @@ class SkillSection extends Component {
     const theme = this.props.theme;
     return (
       <div>
-        {/* Original dynamic rendering (if you still want to keep it) */}
         {skills.data.map((skill, i) => {
           return (
             <div key={i} className="skills-main-div">

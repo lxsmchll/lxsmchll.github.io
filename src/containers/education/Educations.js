@@ -9,6 +9,7 @@ class Educations extends Component {
     const theme = this.props.theme;
     return (
       <div className="main" id="educations">
+        {/* Degrees Section */}
         <div className="educations-header-div">
           <Fade bottom duration={2000} distance="20px">
             <h1 className="educations-header" style={{ color: theme.text }}>
@@ -18,7 +19,9 @@ class Educations extends Component {
         </div>
         <div className="educations-body-div">
           {degrees.degrees.map((degree) => {
-            return <DegreeCard degree={degree} theme={theme} />;
+            return (
+              <DegreeCard degree={degree} theme={theme} key={degree.title} />
+            );
           })}
         </div>
       </div>

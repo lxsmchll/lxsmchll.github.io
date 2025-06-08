@@ -29,37 +29,37 @@
         "./coursera_logo.png": 136,
         "./data-science-icon.svg": 137,
         "./data_science.svg": 138,
-        "./deeplearning_ai_logo.png": 139,
-        "./delhivery_logo.png": 140,
-        "./developerActivity.svg": 141,
-        "./dsc_logo.png": 142,
-        "./education.svg": 143,
-        "./experience.svg": 144,
-        "./feelingProud.svg": 145,
-        "./freecopy_logo.png": 146,
-        "./fullstack.svg": 147,
-        "./gcp_logo.png": 148,
-        "./github_logo.png": 149,
-        "./googleAssistant.jpg": 150,
-        "./googleAssistant.svg": 151,
-        "./google_logo.png": 152,
-        "./ibm_logo.png": 153,
-        "./intel_logo.jpg": 154,
-        "./iu_logo.png": 155,
-        "./jsFramework.svg": 156,
-        "./legato_logo.png": 157,
-        "./manOnTable.svg": 158,
-        "./microsoft_logo.png": 159,
-        "./mozilla_logo.png": 160,
-        "./muffito_logo.png": 161,
-        "./nextuLogo.jpg": 162,
-        "./nptel_logo.png": 163,
-        "./portfolio.gif": 164,
-        "./programmer.svg": 165,
-        "./projects_image.svg": 166,
-        "./pwa.png": 167,
-        "./saayaHealthLogo.png": 168,
-        "./stanford_logo.png": 169,
+        "./datacamp.png": 139,
+        "./deeplearning_ai_logo.png": 140,
+        "./delhivery_logo.png": 141,
+        "./developerActivity.svg": 142,
+        "./dsc_logo.png": 143,
+        "./education.svg": 144,
+        "./experience.svg": 145,
+        "./feelingProud.svg": 146,
+        "./freecopy_logo.png": 147,
+        "./fullstack.svg": 148,
+        "./gcp_logo.png": 149,
+        "./github_logo.png": 150,
+        "./googleAssistant.jpg": 151,
+        "./googleAssistant.svg": 152,
+        "./google_logo.png": 153,
+        "./ibm_logo.png": 154,
+        "./intel_logo.jpg": 155,
+        "./iu_logo.png": 156,
+        "./jsFramework.svg": 157,
+        "./legato_logo.png": 158,
+        "./manOnTable.svg": 159,
+        "./microsoft_logo.png": 160,
+        "./mozilla_logo.png": 161,
+        "./muffito_logo.png": 162,
+        "./nextuLogo.jpg": 163,
+        "./nptel_logo.png": 164,
+        "./portfolio.gif": 165,
+        "./programmer.svg": 166,
+        "./projects_image.svg": 167,
+        "./pwa.png": 168,
+        "./saayaHealthLogo.png": 169,
         "./talksCardBack.svg": 170,
         "./talksCardBackAlt.svg": 171,
         "./tiktok_logo.png": 172,
@@ -141,7 +141,7 @@
     ,
     function (e) {
       e.exports = JSON.parse(
-        '{"data":[{"login":"R","avatarUrl":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg","__typename":"Programming"},{"login":"Python","avatarUrl":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg","__typename":"Programming"},{"login":"VBA","avatarUrl":"https://static-00.iconduck.com/assets.00/file-type-vba-icon-2048x1143-g79vnax4.png","__typename":"Programming"},{"login":"Microsoft Excel","avatarUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Microsoft_Excel_Logo_%282013-2019%29.svg/2048px-Microsoft_Excel_Logo_%282013-2019%29.svg.png","__typename":"Tool"},{"login":"SAS","avatarUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/SAS_logo_horiz.svg/1200px-SAS_logo_horiz.svg.png","__typename":"Tool"},{"login":"Statistica","avatarUrl":"https://i.ytimg.com/vi/cL79bUOtWRw/maxresdefault.jpg","__typename":"Tool"},{"login":"Tableau","avatarUrl":"https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png","__typename":"Tool"},{"login":"Power BI","avatarUrl":"https://logos-world.net/wp-content/uploads/2022/02/Microsoft-Power-BI-Symbol.png","__typename":"Tool"},{"login":"Power App","avatarUrl":"https://store-images.s-microsoft.com/image/apps.5460.13795821674373682.42a749e2-3ed9-43c6-88ec-0045278b4e49.7c939c07-5097-4a52-abd1-de0a42b889ba","__typename":"Tool"}]}'
+        '{"data":[{"login":"R","avatarUrl":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg","__typename":"Programming"},{"login":"Python","avatarUrl":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg","__typename":"Programming"},{"login":"SQL","avatarUrl":"https://static-00.iconduck.com/assets.00/sql-database-sql-azure-icon-1955x2048-4pmty46t.png","__typename":"Programming"},{"login":"VBA","avatarUrl":"https://static-00.iconduck.com/assets.00/file-type-vba-icon-2048x1143-g79vnax4.png","__typename":"Programming"},{"login":"Microsoft Excel","avatarUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Microsoft_Excel_Logo_%282013-2019%29.svg/2048px-Microsoft_Excel_Logo_%282013-2019%29.svg.png","__typename":"Tool"},{"login":"SAS","avatarUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/SAS_logo_horiz.svg/1200px-SAS_logo_horiz.svg.png","__typename":"Tool"},{"login":"Statistica","avatarUrl":"https://i.ytimg.com/vi/cL79bUOtWRw/maxresdefault.jpg","__typename":"Tool"},{"login":"Tableau","avatarUrl":"https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png","__typename":"Tool"},{"login":"Power BI","avatarUrl":"https://logos-world.net/wp-content/uploads/2022/02/Microsoft-Power-BI-Symbol.png","__typename":"Tool"},{"login":"Power App","avatarUrl":"https://store-images.s-microsoft.com/image/apps.5460.13795821674373682.42a749e2-3ed9-43c6-88ec-0045278b4e49.7c939c07-5097-4a52-abd1-de0a42b889ba","__typename":"Tool"}]}'
       );
     },
     function (e, t) {},
@@ -219,6 +219,9 @@
     },
     function (e, t, a) {
       e.exports = a.p + "static/media/data_science.ebf35d7f.svg";
+    },
+    function (e, t, a) {
+      e.exports = a.p + "static/media/datacamp.40f3a30f.png";
     },
     function (e, t, a) {
       e.exports = a.p + "static/media/deeplearning_ai_logo.75a7107b.png";
@@ -316,9 +319,6 @@
     function (e, t) {
       e.exports =
         "data:image/png;base64,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";
-    },
-    function (e, t, a) {
-      e.exports = a.p + "static/media/stanford_logo.2c497738.png";
     },
     function (e, t, a) {
       e.exports = a.p + "static/media/talksCardBack.6ac91b16.svg";
@@ -663,11 +663,11 @@
               logo_path: "data-science-icon.svg",
               descriptions: [
                 "Core Data Science Courses:",
-                "  \u2022 Time Series Analysis & Forecasting, Applied Multivariate Analysis, Linear Models, Statistical Theories, Exploratory Data Analysis, Statistical Packages, Operations Research, Markov Chain",
+                "  \u2022 Time Series Analysis & Forecasting, Applied Multivariate Analysis, Linear Models, Statistical Theories, Exploratory Data Analysis, Operations Research, Markov Chain",
                 "Mathematical Foundations:",
                 "  \u2022 Numerical Analysis, Complex Analysis, Differential Equations, Linear Algebra, Abstract Algebra 1 & 2, Modern Geometry, Mathematical Analysis 1\u20133, Introduction to Set Theory, Game Theory, Graph Theory, Numerical Methods",
                 "Programming & Tools:",
-                "  \u2022 Computational Thinking in Python",
+                "  \u2022 Computational Thinking in Python, Statistical Packages (R, SAS, Statistica)",
               ],
             },
           ],
@@ -715,112 +715,31 @@
         k = {
           certifications: [
             {
-              title: "Machine Learning",
-              subtitle: "- Andrew Ng",
-              logo_path: "stanford_logo.png",
+              title: "Joining Data in SQL",
+              subtitle: "- Jonathan Cornelissen",
+              logo_path: "datacamp.png",
               certificate_link:
-                "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-              alt_name: "Stanford University",
-              color_code: "#8C151599",
+                "https://www.datacamp.com/statement-of-accomplishment/course/860d7492cdf0f66205850e0be4692908ad97053b?raw=1",
+              alt_name: "DataCamp",
+              color_code: "#04ec64",
             },
             {
-              title: "Deep Learning",
-              subtitle: "- Andrew Ng",
-              logo_path: "deeplearning_ai_logo.png",
+              title: "Intermediate SQL",
+              subtitle: "- Jonathan Cornelissen",
+              logo_path: "datacamp.png",
               certificate_link:
-                "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-              alt_name: "deeplearning.ai",
-              color_code: "#00000099",
+                "https://www.datacamp.com/statement-of-accomplishment/course/49c0212f56908ca8626a083f11fcf4d32b30e04a?raw=1",
+              alt_name: "DataCamp",
+              color_code: "#04ec64",
             },
             {
-              title: "ML on GCP",
-              subtitle: "- GCP Training",
-              logo_path: "google_logo.png",
+              title: "Introduction to SQL",
+              subtitle: "- Jonathan Cornelissen",
+              logo_path: "datacamp.png",
               certificate_link:
-                "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-              alt_name: "Google",
-              color_code: "#0C9D5899",
-            },
-            {
-              title: "Data Science",
-              subtitle: "- Alex Aklson",
-              logo_path: "ibm_logo.png",
-              certificate_link:
-                "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-              alt_name: "IBM",
-              color_code: "#1F70C199",
-            },
-            {
-              title: "Big Data",
-              subtitle: "- Kim Akers",
-              logo_path: "microsoft_logo.png",
-              certificate_link:
-                "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-              alt_name: "Microsoft",
-              color_code: "#D83B0199",
-            },
-            {
-              title: "Advanced Data Science",
-              subtitle: "- Romeo Kienzler",
-              logo_path: "ibm_logo.png",
-              certificate_link:
-                "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-              alt_name: "IBM",
-              color_code: "#1F70C199",
-            },
-            {
-              title: "Advanced ML on GCP",
-              subtitle: "- GCP Training",
-              logo_path: "google_logo.png",
-              certificate_link:
-                "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-              alt_name: "Google",
-              color_code: "#0C9D5899",
-            },
-            {
-              title: "DL on Tensorflow",
-              subtitle: "- Laurence Moroney",
-              logo_path: "deeplearning_ai_logo.png",
-              certificate_link:
-                "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-              alt_name: "deeplearning.ai",
-              color_code: "#00000099",
-            },
-            {
-              title: "Fullstack Development",
-              subtitle: "- Jogesh Muppala",
-              logo_path: "coursera_logo.png",
-              certificate_link:
-                "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-              alt_name: "Coursera",
-              color_code: "#2A73CC",
-            },
-            {
-              title: "Kuberenetes on GCP",
-              subtitle: "- Qwiklabs",
-              logo_path: "gcp_logo.png",
-              certificate_link:
-                "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-              alt_name: "GCP",
-              color_code: "#4285F499",
-            },
-            {
-              title: "Cryptography",
-              subtitle: "- Saurabh Mukhopadhyay",
-              logo_path: "nptel_logo.png",
-              certificate_link:
-                "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-              alt_name: "NPTEL",
-              color_code: "#FFBB0099",
-            },
-            {
-              title: "Cloud Architecture",
-              subtitle: "- Qwiklabs",
-              logo_path: "gcp_logo.png",
-              certificate_link:
-                "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-              alt_name: "GCP",
-              color_code: "#4285F499",
+                "https://www.datacamp.com/statement-of-accomplishment/course/6dbb6c344774a978d69ec79a21df513296eb5fd8?raw=1",
+              alt_name: "DataCamp",
+              color_code: "#04ec64",
             },
           ],
         },
@@ -1140,7 +1059,7 @@
         H = (e) => {
           e.target.style.backgroundColor = "transparent";
         };
-      class L extends r.Component {
+      class j extends r.Component {
         render() {
           const e = this.props.theme,
             t = p ? "/splash" : "home";
@@ -1216,13 +1135,13 @@
           );
         }
       }
-      var j,
-        P = L,
-        Q = (a(117), a(40)),
+      var L,
+        Q = j,
+        P = (a(117), a(40)),
         V = (a(118), a(21));
       const J = V.c.span(
-        j ||
-          (j = Object(Q.a)([
+        L ||
+          (L = Object(P.a)([
             "\n  i {\n    background-color: ",
             ";\n  }\n  &:hover i {\n    background-color: ",
             ";\n    transition: 0.3s ease-in;\n  }\n",
@@ -1233,7 +1152,7 @@
           return t.text;
         }
       );
-      function q(e) {
+      function W(e) {
         return s.a.createElement(
           "div",
           { className: "social-media-div" },
@@ -1259,7 +1178,7 @@
         );
       }
       a(120);
-      function W(e) {
+      function q(e) {
         let { text: t, className: a, href: r, newTab: o, theme: l } = e;
         return s.a.createElement(
           "div",
@@ -1535,11 +1454,11 @@
                     },
                     C
                   ),
-                  s.a.createElement(q, { theme: t }),
+                  s.a.createElement(W, { theme: t }),
                   s.a.createElement(
                     "div",
                     { className: "portfolio-repo-btn-div" },
-                    s.a.createElement(W, {
+                    s.a.createElement(q, {
                       text: "Click to View R\xe9sum\xe9",
                       newTab: !0,
                       href: y,
@@ -3669,7 +3588,7 @@
           return s.a.createElement(
             "div",
             null,
-            s.a.createElement(P, { theme: this.props.theme }),
+            s.a.createElement(Q, { theme: this.props.theme }),
             s.a.createElement(_, { theme: this.props.theme }),
             s.a.createElement(he, { theme: this.props.theme }),
             s.a.createElement(de, { theme: this.props.theme }),
@@ -4075,7 +3994,7 @@
               "div",
               { className: "educations-body-div" },
               M.degrees.map((t) =>
-                s.a.createElement(ve, { degree: t, theme: e })
+                s.a.createElement(ve, { degree: t, theme: e, key: t.title })
               )
             )
           );
@@ -4539,7 +4458,7 @@
           return s.a.createElement(
             "div",
             { className: "education-main" },
-            s.a.createElement(P, { theme: this.props.theme }),
+            s.a.createElement(Q, { theme: this.props.theme }),
             s.a.createElement(
               "div",
               { className: "basic-education" },
@@ -5224,7 +5143,7 @@
           return s.a.createElement(
             "div",
             { className: "experience-main" },
-            s.a.createElement(P, { theme: e }),
+            s.a.createElement(Q, { theme: e }),
             s.a.createElement(
               "div",
               { className: "basic-experience" },
@@ -5279,16 +5198,16 @@
           );
         }
       }
-      var Le = He,
-        je = a(41),
-        Pe = (a(276), a(25));
-      class Qe extends r.Component {
+      var je = He,
+        Le = a(41),
+        Qe = (a(276), a(25));
+      class Pe extends r.Component {
         render() {
           const e = {
             labels: ["Open", "Merged", "Closed"],
             datasets: [
               {
-                data: [Pe.open, Pe.merged, Pe.closed],
+                data: [Qe.open, Qe.merged, Qe.closed],
                 backgroundColor: ["#28a745", "#6f42c1", "#d73a49"],
                 hoverBackgroundColor: ["#28a745dd", "#6f42c1dd", "#d73a49dd"],
               },
@@ -5306,7 +5225,7 @@
                 "Pull Request Distribution"
               )
             ),
-            s.a.createElement(je.Doughnut, {
+            s.a.createElement(Le.Doughnut, {
               data: e,
               options: {
                 padding: "0",
@@ -5319,9 +5238,9 @@
           );
         }
       }
-      var Ve = Qe,
+      var Ve = Pe,
         Je = (a(277), a(30));
-      class qe extends r.Component {
+      class We extends r.Component {
         render() {
           const e = {
             labels: ["Open", "Closed"],
@@ -5345,7 +5264,7 @@
                 "Issue Distribution"
               )
             ),
-            s.a.createElement(je.Doughnut, {
+            s.a.createElement(Le.Doughnut, {
               data: e,
               options: {
                 margin: "0",
@@ -5358,7 +5277,7 @@
           );
         }
       }
-      var We = qe;
+      var qe = We;
       a(278);
       class Ye extends r.Component {
         render() {
@@ -5383,7 +5302,7 @@
               "div",
               { className: "os-charts-body-div" },
               s.a.createElement(Ve, null),
-              s.a.createElement(We, null)
+              s.a.createElement(qe, null)
             )
           );
         }
@@ -5486,7 +5405,7 @@
             s.a.createElement(
               "div",
               { className: "pull-request-body-div" },
-              Pe.data.map((e) => s.a.createElement(st.a, { pullRequest: e }))
+              Qe.data.map((e) => s.a.createElement(st.a, { pullRequest: e }))
             )
           );
         }
@@ -5664,7 +5583,7 @@
           return s.a.createElement(
             "div",
             { className: "opensource-main" },
-            s.a.createElement(P, { theme: this.props.theme }),
+            s.a.createElement(Q, { theme: this.props.theme }),
             s.a.createElement(at, { theme: this.props.theme }),
             s.a.createElement(Ke, { theme: this.props.theme }),
             s.a.createElement(lt, { theme: this.props.theme }),
@@ -6240,7 +6159,7 @@
           return s.a.createElement(
             "div",
             { className: "contact-main" },
-            s.a.createElement(P, { theme: e }),
+            s.a.createElement(Q, { theme: e }),
             s.a.createElement(
               "div",
               { className: "basic-contact" },
@@ -6277,11 +6196,11 @@
                       },
                       gt.description
                     ),
-                    s.a.createElement(q, { theme: e }),
+                    s.a.createElement(W, { theme: e }),
                     s.a.createElement(
                       "div",
                       { className: "resume-btn-div" },
-                      s.a.createElement(W, {
+                      s.a.createElement(q, {
                         text: "See My Resume",
                         newTab: !0,
                         href: E,
@@ -6319,7 +6238,7 @@
                     s.a.createElement(
                       "div",
                       { className: "blogsite-btn-div" },
-                      s.a.createElement(W, {
+                      s.a.createElement(q, {
                         text: "Visit My Blogsite",
                         newTab: !0,
                         href: ft.link,
@@ -6383,7 +6302,7 @@
                     s.a.createElement(
                       "div",
                       { className: "address-btn-div" },
-                      s.a.createElement(W, {
+                      s.a.createElement(q, {
                         text: "Visit on Google Maps",
                         newTab: !0,
                         href: bt.location_map_link,
@@ -7266,7 +7185,7 @@
           return s.a.createElement(
             "div",
             { className: "projects-main" },
-            s.a.createElement(P, { theme: e }),
+            s.a.createElement(Q, { theme: e }),
             s.a.createElement(
               "div",
               { className: "basic-projects" },
@@ -7309,7 +7228,7 @@
               { className: "repo-cards-div-main" },
               Mt.data.map((t) => s.a.createElement(wt, { repo: t, theme: e }))
             ),
-            s.a.createElement(W, {
+            s.a.createElement(q, {
               text: "More Projects",
               className: "project-button",
               href: v,
@@ -7370,9 +7289,10 @@
           return s.a.createElement(
             "div",
             { className: "skills-main" },
-            s.a.createElement(P, { theme: this.props.theme }),
+            s.a.createElement(Q, { theme: this.props.theme }),
             s.a.createElement(at, { theme: this.props.theme }),
             s.a.createElement(xe, { theme: this.props.theme }),
+            s.a.createElement(Ne, { theme: this.props.theme }),
             s.a.createElement(de, {
               theme: this.props.theme,
               onToggle: this.props.onToggle,
@@ -7390,7 +7310,7 @@
           return s.a.createElement(
             "div",
             { className: "error-main" },
-            s.a.createElement(P, { theme: this.props.theme }),
+            s.a.createElement(Q, { theme: this.props.theme }),
             s.a.createElement(
               "div",
               { className: "error-class" },
@@ -7460,7 +7380,7 @@
                 exact: !0,
                 render: (e) =>
                   s.a.createElement(
-                    Le,
+                    je,
                     Object.assign({}, e, { theme: this.props.theme })
                   ),
               }),
@@ -7527,7 +7447,7 @@
       }
       const Bt = Object(V.b)(
         Ut ||
-          (Ut = Object(Q.a)([
+          (Ut = Object(P.a)([
             "\n  *,\n  *::after,\n  *::before {\n    box-sizing: border-box;\n  }\n\n  body {\n    align-items: center;\n    background: ",
             ";\n    color: ",
             ";\n    display: flex;\n    // flex-direction: column;\n    // justify-content: center;\n    // height: 100vh;\n    // margin: 0;\n    // padding: 0;\n    font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;\n    transition: all 0.25s linear;\n  }",
@@ -7578,4 +7498,4 @@
   ]),
   [[93, 1, 2]],
 ]);
-//# sourceMappingURL=main.618332ab.chunk.js.map
+//# sourceMappingURL=main.3194bf54.chunk.js.map

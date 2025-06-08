@@ -11,6 +11,11 @@
       "__typename": "Programming"
     },
     {
+      "login": "SQL",
+      "avatarUrl": "https://static-00.iconduck.com/assets.00/sql-database-sql-azure-icon-1955x2048-4pmty46t.png",
+      "__typename": "Programming"
+    },
+    {
       "login": "VBA",
       "avatarUrl": "https://static-00.iconduck.com/assets.00/file-type-vba-icon-2048x1143-g79vnax4.png",
       "__typename": "Programming"
