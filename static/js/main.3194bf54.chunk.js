@@ -481,7 +481,7 @@
         b = "AlexisMichelleAbellar",
         A = "Alexis",
         C =
-          "Aspiring actuary with a passion for data science, human behavior, and automation. Mathematics major with a Business Specialization and a Minor in Psychology.",
+          "I bridge math, psychology, and data to model human behavior, optimize decisions, and design systems that solve societal problems.",
         E =
           "https://drive.google.com/drive/folders/1QxnXpDtTjzbYQzI6QW0SJ2mdXqPAr0Fy?usp=sharing",
         y =

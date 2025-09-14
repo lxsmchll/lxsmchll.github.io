@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Abellar's Portfolio",
   description:
-    "An aspiring actuary with a strong foundation in mathematics, operations research, and psychology — passionate about leveraging quantitative analysis and data-driven insights to solve complex problems in risk, optimization, and decision-making. Primarily focused on actuarial science with expertise applicable to operations research and applied data science.",
+    "I bridge math, psychology, and data to model human behavior, optimize decisions, and design systems that solve societal problems.",
   og: {
     title: "Alexis Michelle Abellar Portfolio",
     type: "website",
@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "AlexisMichelleAbellar",
   nickname: "Alexis",
   subTitle:
-    "Aspiring actuary with a passion for data science, human behavior, and automation. Mathematics major with a Business Specialization and a Minor in Psychology.",
+    "I bridge math, psychology, and data to model human behavior, optimize decisions, and design systems that solve societal problems.",
   resumeLink:
     "https://drive.google.com/drive/folders/1QxnXpDtTjzbYQzI6QW0SJ2mdXqPAr0Fy?usp=sharing",
   resumebutton:
