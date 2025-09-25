@@ -55,15 +55,73 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "🌡️ Actuarial Analysis",
+      title: "🤝 Systematic & Computational Leadership",
       fileName: "WIDTimeSeries",
       overview:
-        "I explore actuarial problems using mathematical frameworks, forecasting tools, and real-world data.",
+        "I create guides, trackers, and systems that keep groups efficient and connected, taking initiative beyond authority while maintaining transparent communication.",
+      softwareSkills: [
+        {
+          skillName: "Google Sheets",
+          fontAwesomeClassname: "simple-icons:googlesheets",
+          style: { color: "#0F9D58" },
+        },
+        {
+          skillName: "VBA",
+          fontAwesomeClassname: "simple-icons:visualbasic",
+          style: { color: "#A1A1A1" },
+        },
+      ],
+      projects: [
+        {
+          title: "🔹 VP for Membership Development & Socio-Civic Affairs",
+          description: "Built trackers, manuals, and trained new officers.",
+        },
+        {
+          title: "🔹 Director for Documentations (DLSU USG)",
+          description: "Built trackers, manuals, and systems for efficiency.",
+        },
+        {
+          title: "🔹 Founder/Admin of Lifetwt Community",
+          description:
+            "Built an online community that reached 1,000+ Discord members at its peak, created webhooks, led monthly events with 30-50 attendees, developed guidelines, and conflict-resolution systems.",
+        },
+        {
+          title: "🔹 Gamified Discord Onboarding",
+          description:
+            "Automated onboarding flows using Mimu bot for interactive engagement even before the onboarding Discord feature existed (Mar. 2022).",
+        },
+        {
+          title: "🔹 VBA Report Consolidation (Actuarial Internship)",
+          description:
+            "Semi-automated Excel processes to streamline workflows.",
+        },
+      ],
+    },
+    {
+      title: "🔢 Mathematical Insights",
+      fileName: "WIDNumerical",
+      overview:
+        "I apply mathematical frameworks to real-world problems, from optimization to forecasting.",
       softwareSkills: [
         {
           skillName: "R",
           fontAwesomeClassname: "simple-icons:r",
           style: { color: "#276DC3" },
+        },
+        {
+          skillName: "Statistica",
+          avatarUrl: "https://i.ytimg.com/vi/cL79bUOtWRw/maxresdefault.jpg",
+          style: { color: "#276DC3" },
+        },
+        {
+          skillName: "Excel",
+          fontAwesomeClassname: "simple-icons:microsoftexcel",
+          style: { color: "#217346" },
+        },
+        {
+          skillName: "Google Sheets",
+          fontAwesomeClassname: "simple-icons:googlesheets",
+          style: { color: "#0F9D58" },
         },
       ],
       projects: [
@@ -78,6 +136,15 @@ const skills = {
             "https://drive.google.com/file/d/1b3B9xYv3dNPUwlU7ll2o2sz_1C-jRIWb/view?usp=drive_link",
         },
         {
+          title: "🔹 Bitcoin Implied Volatility Estimation",
+          description:
+            "Explored Newton-Raphson and bisection methods for estimating implied volatility.",
+          contributions: "Applied the Newton-Raphson method.",
+          linkLabel: "View Full Project (PDF)",
+          link:
+            "https://drive.google.com/file/d/1zqKOBLumPs4fJ8sslGVF4Cd3WByIFsEC/view?usp=drive_link",
+        },
+        {
           title: "🔹 Global Temperature Time Series Analysis",
           description:
             "Conducted time series analysis including decomposition, model fitting, forecasting, and performance evaluation.",
@@ -86,21 +153,6 @@ const skills = {
           link:
             "https://drive.google.com/file/d/1Z5GNexdseiekOdcBAMSuwujmJ9j6Psmy/view?usp=drive_link",
         },
-      ],
-    },
-    {
-      title: "📊 Data-Driven Analysis",
-      fileName: "WIDDataDriven",
-      overview:
-        "I analyze data and identify patterns to guide decisions with evidence.",
-      softwareSkills: [
-        {
-          skillName: "Statistica",
-          avatarUrl: "https://i.ytimg.com/vi/cL79bUOtWRw/maxresdefault.jpg",
-          style: { color: "#276DC3" },
-        },
-      ],
-      projects: [
         {
           title: "🔹 Employee Attrition Analysis",
           description:
@@ -110,45 +162,6 @@ const skills = {
           link:
             "https://drive.google.com/file/d/1HeMicJWuj7vAb665R6jbcq9ioqtdZztm/view?usp=drive_link",
         },
-      ],
-    },
-    {
-      title: "📉 Numerical Method",
-      fileName: "WIDNumerical",
-      overview:
-        "I use numerical methods to approximate solutions to problems that can't be solved analytically.",
-      softwareSkills: [
-        {
-          skillName: "Excel",
-          fontAwesomeClassname: "simple-icons:microsoftexcel",
-          style: { color: "#217346" },
-        },
-      ],
-      projects: [
-        {
-          title: "🔹 Bitcoin Implied Volatility Estimation",
-          description:
-            "Explored Newton-Raphson and bisection methods for estimating implied volatility.",
-          contributions: "Applied the Newton-Raphson method.",
-          linkLabel: "View Full Project (PDF)",
-          link:
-            "https://drive.google.com/file/d/1zqKOBLumPs4fJ8sslGVF4Cd3WByIFsEC/view?usp=drive_link",
-        },
-      ],
-    },
-    {
-      title: "🔧 Operations Research",
-      fileName: "WIDDataDriven",
-      overview:
-        "I use optimization methods to build efficient systems and support business decisions.",
-      softwareSkills: [
-        {
-          skillName: "Excel",
-          fontAwesomeClassname: "simple-icons:microsoftexcel",
-          style: { color: "#217346" },
-        },
-      ],
-      projects: [
         {
           title: "🔹 Revenue Maximization of 24 Chicken",
           description:
@@ -162,30 +175,31 @@ const skills = {
       ],
     },
     {
-      title: "🤖 Resourceful Automation",
-      fileName: "WIDOperations",
+      title: "📊 Data-Driven Psychological Insights",
+      fileName: "WIDDataDriven",
       overview:
-        "I proactively automate tasks across various fields by leveraging my skills and pattern recognition. I enjoy building templates and systems that streamline processes and improve efficiency.",
+        "I integrate psychology and data to uncover human patterns and support growth, treating emotions and individuality as vital data points.",
       softwareSkills: [],
       projects: [
         {
-          title: "🔹 VBA Report Consolidation",
+          title: "🔹 Volunteer Listener (7 Cups)",
           description:
-            "Automated monthly consolidation of sheets across multiple reports into one output file during my actuarial internship.",
+            "Learned and applied active listening and emotional agility in online counseling.",
         },
         {
-          title: "🔹 Twitter Bot for Emotional Check-Ins",
+          title: "🔹 Twitter Bot Emotional Check-In",
           description:
-            "Created a weekly emotional check-in Twitter bot that responds to followers using low-code platform as my first coding experience.",
+            "Resourcefully developed a Twitter bot with minimal coding using another website to automate emotional check-in Twitter posts and reply responses (2021-2022).",
         },
         {
-          title: "🔹 Discord Onboarding Gamification",
+          title: "🔹 Suicide Awareness Trainings",
           description:
-            "Gamified Discord channels onboarding via Mimu bot custom commands for interactive community engagement.",
+            "Completed university and veteran editions of suicide awareness training from Zero Suicide Alliance.",
         },
         {
-          title: "🔹 Python RPG Game",
-          description: "Designed a simple RPG game using Python.",
+          title: "🔹 Coursework in Psychology",
+          description:
+            "Developmental, Social, Abnormal, and Personality Theories Psychology, plus personal focus on self-actualization and emotional agility.",
         },
       ],
     },
