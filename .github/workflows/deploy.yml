@@ -1,5 +1,10 @@
 name: Build and Deploy
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 on:
   push:
     branches: [ main ]
@@ -33,7 +38,11 @@ jobs:
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
+          # Use the automatic GITHUB_TOKEN (requires repo Actions permissions allow write access)
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          # Optional: if GITHUB_TOKEN lacks permissions in your org/repo settings,
+          # create a personal access token (repo scope) and add it as secret GH_PAGES_PAT
+          personal_token: ${{ secrets.GH_PAGES_PAT }}
           publish_dir: ./build
           publish_branch: gh-pages
           keep_files: false
