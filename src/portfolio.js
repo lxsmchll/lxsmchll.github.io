@@ -515,7 +515,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "Automation systems, mathematical analyses, and community projects — each a different lens on how I think and build.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -583,6 +583,114 @@ const contactPageData = {
   },
 };
 
+const portfolioProjects = [
+  // ── AUTOMATION (Featured) ─────────────────────────────────────────────────
+  {
+    id: "automation-onboarding",
+    category: "Automation",
+    featured: true,
+    title: "Client Onboarding Automation System",
+    subtitle: "CRM & Workflow Implementation",
+    description:
+      "Built an end-to-end client onboarding system for a fictional tech agency, replacing a manual spreadsheet-based process with a fully automated CRM pipeline. Covers lead capture, deal management, automated follow-ups, service ticket creation, data migration, and UAT documentation.",
+    tools: ["HubSpot", "Monday.com", "Google Sheets"],
+    hubs: ["Sales Hub", "Marketing Hub", "Service Hub", "CMS Hub"],
+    highlights: [
+      "8-action workflow with If/Then branching",
+      "10-record CSV data migration",
+      "5 UAT test cases documented",
+    ],
+    docLink:
+      "https://docs.google.com/document/d/1AnO0uNnXNLydKsbPXuQHJNtbIyu-Mr-kmzWVNDUEJW0/edit?usp=sharing",
+    docEmbedId: "1AnO0uNnXNLydKsbPXuQHJNtbIyu-Mr-kmzWVNDUEJW0",
+    status: "In Progress", // Change to "Complete" when Monday.com build is done
+  },
+
+  // ── MATHEMATICS ───────────────────────────────────────────────────────────
+  {
+    id: "markov-psei",
+    category: "Mathematics",
+    featured: false,
+    title: "Markov Chain Analysis on PSEi",
+    subtitle: "Stochastic Forecasting",
+    description:
+      "Applied Markov chains to analyze and forecast Philippine Stock Exchange Index movements, modeling state transitions across market conditions.",
+    tools: ["R", "Statistica"],
+    highlights: [],
+    contributions:
+      "Authored Results, Discussion & Conclusion; visualizations and computations.",
+    docLink:
+      "https://drive.google.com/file/d/1b3B9xYv3dNPUwlU7ll2o2sz_1C-jRIWb/view?usp=drive_link",
+    linkLabel: "View Full Project (PDF)",
+    status: "Complete",
+  },
+  {
+    id: "bitcoin-volatility",
+    category: "Mathematics",
+    featured: false,
+    title: "Bitcoin Implied Volatility Estimation",
+    subtitle: "Numerical Methods",
+    description:
+      "Explored Newton-Raphson and bisection methods for estimating implied volatility on Bitcoin options, comparing convergence rates and accuracy.",
+    tools: ["Excel", "R"],
+    highlights: [],
+    contributions: "Applied the Newton-Raphson method.",
+    docLink:
+      "https://drive.google.com/file/d/1zqKOBLumPs4fJ8sslGVF4Cd3WByIFsEC/view?usp=drive_link",
+    linkLabel: "View Full Project (PDF)",
+    status: "Complete",
+  },
+  {
+    id: "temperature-timeseries",
+    category: "Mathematics",
+    featured: false,
+    title: "Global Temperature Time Series Analysis",
+    subtitle: "Forecasting & Decomposition",
+    description:
+      "Conducted time series analysis on global temperature data including seasonal decomposition, model fitting, forecasting, and performance evaluation.",
+    tools: ["R", "Statistica"],
+    highlights: [],
+    contributions: "Team leader; contributed in everything.",
+    docLink:
+      "https://drive.google.com/file/d/1Z5GNexdseiekOdcBAFpMkTuLas/view?usp=drive_link",
+    linkLabel: "View Full Project (PDF)",
+    status: "Complete",
+  },
+  {
+    id: "employee-attrition",
+    category: "Mathematics",
+    featured: false,
+    title: "Employee Attrition Analysis",
+    subtitle: "Multivariate Classification",
+    description:
+      "Used factor analysis and discriminant analysis to identify key drivers of employee attrition, achieving 84.42% classification accuracy.",
+    tools: ["Statistica", "R"],
+    highlights: ["84.42% classification accuracy"],
+    contributions: "Project leader; did factor analysis.",
+    docLink:
+      "https://drive.google.com/file/d/1HeMicJWuj7vAb665R6jbcq9ioqtdZztm/view?usp=drive_link",
+    linkLabel: "View Full Project (PDF)",
+    status: "Complete",
+  },
+  {
+    id: "revenue-maximization",
+    category: "Mathematics",
+    featured: false,
+    title: "Revenue Maximization of 24 Chicken",
+    subtitle: "Linear Programming",
+    description:
+      "Used linear programming to determine the optimal product mix for a food business to maximize revenue under resource constraints.",
+    tools: ["Excel", "Google Sheets"],
+    highlights: [],
+    contributions:
+      "Co-wrote methodology and implemented Excel-based optimization.",
+    docLink:
+      "https://drive.google.com/file/d/1H5c8U-7drAybeOSVbJRiN03eaGNh-w_E/view?usp=drive_link",
+    linkLabel: "View Full Project (PDF)",
+    status: "Complete",
+  },
+];
+
 export {
   settings,
   seo,
@@ -597,4 +705,5 @@ export {
   publicationsHeader,
   publications,
   contactPageData,
+  portfolioProjects,
 };
