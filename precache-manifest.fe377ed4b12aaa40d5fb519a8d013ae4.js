@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "004b63a0cd1dbcd32baaca10298c5f05",
+    "revision": "bc845d10be6e79e5661c9135144bc26c",
     "url": "/index.html"
   },
   {
-    "revision": "a1b01c1f064d2e5a59ed",
-    "url": "/static/css/main.3ca4057f.chunk.css"
+    "revision": "eda5d666f08b4048e557",
+    "url": "/static/css/main.da093ba8.chunk.css"
   },
   {
     "revision": "bacafbf556237167fab8",
     "url": "/static/js/2.2672e797.chunk.js"
   },
   {
-    "revision": "a1b01c1f064d2e5a59ed",
-    "url": "/static/js/main.9fbf38db.chunk.js"
+    "revision": "eda5d666f08b4048e557",
+    "url": "/static/js/main.3faef616.chunk.js"
   },
   {
     "revision": "dc2a88b6a6d16bfa48c7",
@@ -80,8 +80,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/contactMail.5f915405.png"
   },
   {
-    "revision": "fe030b4429868e9525aaa0625ede4fdd",
-    "url": "/static/media/data-science-icon.fe030b44.svg"
+    "revision": "175d1a9c14abe2202eaf97b78fd4928f",
+    "url": "/static/media/data-science-icon.175d1a9c.svg"
   },
   {
     "revision": "ebf35d7f33ebbd4a4c6cff7e66e21fdb",
